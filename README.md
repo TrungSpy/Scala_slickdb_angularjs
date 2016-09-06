@@ -10,13 +10,15 @@ $ run
  
 Run the all unit test:
 
-     $ bin/activator test
+```
+$ sbt  test
+```
     
 Run the app using Postgres database:
 
-     $ bin/activator 'run   -Dconfig.file=conf/postgres.conf'
-
-
+```
+$ sbt run   -Dconfig.file=conf/postgres.conf'
+```
 
 -----------------------------------------------------------------------
 ###All the Screens :-
